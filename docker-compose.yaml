@@ -1,0 +1,47 @@
+version: '3'
+services:
+  redis1:
+    image: redis
+    ports:
+      - 6379:6379
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 100M
+  redis2:
+    image: redis
+    ports:
+      - 6380:6379
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 100M
+  redis3:
+    image: redis
+    ports:
+      - 6381:6379
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 100M
+  redis4:
+    image: redis
+    ports:
+      - 6382:6379
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 100M
+  redis5:
+    image: redis
+    ports:
+      - 6383:6379
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 100M
